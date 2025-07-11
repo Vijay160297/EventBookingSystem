@@ -1,0 +1,77 @@
+
+.mybookings-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.mybookings-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4b0082;
+}
+
+.email-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #999;
+  border-radius: 8px;
+}
+
+.bookings-list {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.booking-card {
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.booking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-tag {
+  background-color: #00c853;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+}
+
+.cancel-btn,
+.book-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.cancel-btn {
+  background-color: #ff5252;
+  color: white;
+}
+
+.book-btn {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+/* 🎨 5 Different Background Styles */
+.bg-style-1 { background: linear-gradient(135deg, #1de9b6, #1dc4e9); }
+.bg-style-2 { background: linear-gradient(135deg, #ff6e7f, #bfe9ff); }
+.bg-style-3 { background: linear-gradient(135deg, #c3cfe2, #c3e4e2); color: #222; }
+.bg-style-4 { background: linear-gradient(135deg, #f093fb, #f5576c); }
+.bg-style-5 { background: linear-gradient(135deg, #667eea, #764ba2); }
